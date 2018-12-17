@@ -69,13 +69,6 @@ DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbogoasia.hk
 
-// Hulu
-USER-AGENT,Hulu*
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
-
 // Imkan
 DOMAIN-SUFFIX,imkan.tv
 
