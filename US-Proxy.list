@@ -1,2 +1,6 @@
-USER-AGENT,Brawl%20Stars*
+// Apple
 DOMAIN,itunes.apple.com
+
+// Brawl Stars
+USER-AGENT,Brawl%20Stars*
+DOMAIN-SUFFIX,brawlstarsgame.com
