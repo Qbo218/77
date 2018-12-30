@@ -4,3 +4,4 @@ DOMAIN-SUFFIX,aoscdn.amap.com
 DOMAIN-SUFFIX,aos-cdn-image.amap.com
 DOMAIN-SUFFIX,acs.m.taobao.com
 IP-CIDR,203.119.206.64/32
+IP-CIDR,203.119.211.219/32
