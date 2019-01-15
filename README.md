@@ -1,1 +1,1 @@
-# Surge
+# Rules for myself
