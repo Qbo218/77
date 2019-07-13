@@ -1,4 +1,2 @@
-// Apple
-DOMAIN,hls.itunes.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,itunes.com
+PROCESS-NAME,News
+DOMAIN-SUFFIX,apps.apple.com
