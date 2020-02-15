@@ -1,0 +1,7 @@
+# > TikTok
+USER-AGENT,TikTok*,TikTok 策略
+DOMAIN-SUFFIX,muscdn.com,TikTok 策略
+DOMAIN-SUFFIX,musical.ly,TikTok 策略
+DOMAIN-SUFFIX,tiktokv.com,TikTok 策略
+DOMAIN-SUFFIX,tiktokcdn.com,TikTok 策略
+DOMAIN-KEYWORD,-tiktokcdn-com,TikTok 策略
