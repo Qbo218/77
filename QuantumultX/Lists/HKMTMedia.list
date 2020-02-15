@@ -1,0 +1,6 @@
+# (HKMTMedia)
+# > 愛奇藝台灣站
+DOMAIN,cache.video.iqiyi.com,港澳媒体节点
+# > bilibili
+DOMAIN,api.bilibili.com,港澳媒体节点
+DOMAIN,upos-hz-mirrorakam.akamaized.net,港澳媒体节点
