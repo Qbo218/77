@@ -1,0 +1,223 @@
+# (GlobalMedia)
+# (Music)
+# > Deezer
+USER-AGENT,Deezer*,国际媒体策略
+DOMAIN-SUFFIX,deezer.com,国际媒体策略
+DOMAIN-SUFFIX,dzcdn.net,国际媒体策略
+# > KKBOX
+DOMAIN-SUFFIX,kkbox.com,国际媒体策略
+DOMAIN-SUFFIX,kkbox.com.tw,国际媒体策略
+DOMAIN-SUFFIX,kfs.io,国际媒体策略
+# > JOOX
+USER-AGENT,WeMusic*,国际媒体策略
+USER-AGENT,JOOX*,国际媒体策略
+DOMAIN-SUFFIX,joox.com,国际媒体策略
+# > Pandora
+USER-AGENT,Pandora*,国际媒体策略
+DOMAIN-SUFFIX,pandora.com,国际媒体策略
+# > SoundCloud
+USER-AGENT,SoundCloud*,国际媒体策略
+DOMAIN-SUFFIX,p-cdn.us,国际媒体策略
+DOMAIN-SUFFIX,sndcdn.com,国际媒体策略
+DOMAIN-SUFFIX,soundcloud.com,国际媒体策略
+# > Spotify
+USER-AGENT,Spotify*,国际媒体策略
+DOMAIN-SUFFIX,pscdn.co,国际媒体策略
+DOMAIN-SUFFIX,scdn.co,国际媒体策略
+DOMAIN-SUFFIX,spotify.com,国际媒体策略
+DOMAIN-SUFFIX,spoti.fi,国际媒体策略
+DOMAIN-KEYWORD,spotify.com,国际媒体策略
+DOMAIN-KEYWORD,-spotify-com,国际媒体策略
+# > TIDAL
+USER-AGENT,TIDAL*,国际媒体策略
+DOMAIN-SUFFIX,tidal.com,国际媒体策略
+# > YouTubeMusic
+USER-AGENT,com.google.ios.youtubemusic*,国际媒体策略
+USER-AGENT,YouTubeMusic*,国际媒体策略
+# (Video)
+# > All4
+USER-AGENT,All4*,国际媒体策略
+DOMAIN-SUFFIX,c4assets.com,国际媒体策略
+DOMAIN-SUFFIX,channel4.com,国际媒体策略
+# > AbemaTV
+USER-AGENT,AbemaTV*,国际媒体策略
+DOMAIN-SUFFIX,abema.io,国际媒体策略
+DOMAIN-SUFFIX,ameba.jp,国际媒体策略
+DOMAIN-SUFFIX,abema.tv,国际媒体策略
+DOMAIN-SUFFIX,hayabusa.io,国际媒体策略
+DOMAIN,abematv.akamaized.net,国际媒体策略
+DOMAIN,ds-linear-abematv.akamaized.net,国际媒体策略
+DOMAIN,ds-vod-abematv.akamaized.net,国际媒体策略
+DOMAIN,linear-abematv.akamaized.net,国际媒体策略
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,国际媒体策略
+USER-AGENT,Prime%20Video*,国际媒体策略
+DOMAIN-SUFFIX,aiv-cdn.net,国际媒体策略
+DOMAIN-SUFFIX,aiv-delivery.net,国际媒体策略
+DOMAIN-SUFFIX,amazonvideo.com,国际媒体策略
+DOMAIN-SUFFIX,primevideo.com,国际媒体策略
+DOMAIN,avodmp4s3ww-a.akamaihd.net,国际媒体策略
+DOMAIN,d25xi40x97liuc.cloudfront.net,国际媒体策略
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,国际媒体策略
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,国际媒体策略
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,国际媒体策略
+DOMAIN-KEYWORD,avoddashs,国际媒体策略
+# > Bahamut
+USER-AGENT,Anime*,国际媒体策略
+DOMAIN-SUFFIX,bahamut.com.tw,国际媒体策略
+DOMAIN-SUFFIX,gamer.com.tw,国际媒体策略
+DOMAIN,gamer-cds.cdn.hinet.net,国际媒体策略
+DOMAIN,gamer2-cds.cdn.hinet.net,国际媒体策略
+# > BBC iPlayer
+USER-AGENT,BBCiPlayer*,国际媒体策略
+DOMAIN-SUFFIX,bbc.co.uk,国际媒体策略
+DOMAIN-SUFFIX,bbci.co.uk,国际媒体策略
+DOMAIN-KEYWORD,bbcfmt,国际媒体策略
+DOMAIN-KEYWORD,uk-live,国际媒体策略
+# > DAZN
+USER-AGENT,DAZN*,国际媒体策略
+DOMAIN-SUFFIX,dazn.com,国际媒体策略
+DOMAIN-SUFFIX,dazn-api.com,国际媒体策略
+DOMAIN,d151l6v8er5bdm.cloudfront.net,国际媒体策略
+DOMAIN-KEYWORD,voddazn,国际媒体策略
+# > Disney+
+USER-AGENT,Disney+*,国际媒体策略
+DOMAIN-SUFFIX,bamgrid.com,国际媒体策略
+DOMAIN-SUFFIX,disney-plus.net,国际媒体策略
+DOMAIN-SUFFIX,disneyplus.com,国际媒体策略
+DOMAIN-SUFFIX,dssott.com,国际媒体策略
+DOMAIN,cdn.registerdisney.go.com,国际媒体策略
+# > encoreTVB
+USER-AGENT,encoreTVB*,国际媒体策略
+DOMAIN-SUFFIX,encoretvb.com,国际媒体策略
+DOMAIN,edge.api.brightcove.com,国际媒体策略
+DOMAIN,bcbolt446c5271-a.akamaihd.net,国际媒体策略
+# > FOX NOW
+USER-AGENT,FOX%20NOW*,国际媒体策略
+DOMAIN-SUFFIX,fox.com,国际媒体策略
+DOMAIN-SUFFIX,foxdcg.com,国际媒体策略
+DOMAIN-SUFFIX,theplatform.com,国际媒体策略
+DOMAIN-SUFFIX,uplynk.com,国际媒体策略
+# > HBO NOW
+USER-AGENT,HBO%20NOW*,国际媒体策略
+DOMAIN-SUFFIX,hbo.com,国际媒体策略
+DOMAIN-SUFFIX,hbogo.com,国际媒体策略
+DOMAIN-SUFFIX,hbonow.com,国际媒体策略
+# > HBO GO HKG
+USER-AGENT,HBO%20GO%20PROD%20HKG*,国际媒体策略
+DOMAIN-SUFFIX,hbogoasia.com,国际媒体策略
+DOMAIN-SUFFIX,hbogoasia.hk,国际媒体策略
+DOMAIN,bcbolthboa-a.akamaihd.net,国际媒体策略
+DOMAIN,players.brightcove.net,国际媒体策略
+DOMAIN,s3-ap-southeast-1.amazonaws.com,国际媒体策略
+DOMAIN,dai3fd1oh325y.cloudfront.net,国际媒体策略
+DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,国际媒体策略
+DOMAIN,hboasia1-i.akamaihd.net,国际媒体策略
+DOMAIN,hboasia2-i.akamaihd.net,国际媒体策略
+DOMAIN,hboasia3-i.akamaihd.net,国际媒体策略
+DOMAIN,hboasia4-i.akamaihd.net,国际媒体策略
+DOMAIN,hboasia5-i.akamaihd.net,国际媒体策略
+DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,国际媒体策略
+# > 华文电视
+USER-AGENT,HWTVMobile*,国际媒体策略
+DOMAIN-SUFFIX,5itv.tv,国际媒体策略
+DOMAIN-SUFFIX,ocnttv.com,国际媒体策略
+# > Hulu
+DOMAIN-SUFFIX,hulu.com,国际媒体策略
+DOMAIN-SUFFIX,huluim.com,国际媒体策略
+DOMAIN-SUFFIX,hulustream.com,国际媒体策略
+# > Hulu(フールー)
+DOMAIN-SUFFIX,happyon.jp,国际媒体策略
+DOMAIN-SUFFIX,hulu.jp,国际媒体策略
+# > ITV
+USER-AGENT,ITV_Player*,国际媒体策略
+DOMAIN-SUFFIX,itv.com,国际媒体策略
+DOMAIN-SUFFIX,itvstatic.com,国际媒体策略
+DOMAIN,itvpnpmobile-a.akamaihd.net,国际媒体策略
+# > KKTV
+USER-AGENT,KKTV*,国际媒体策略
+USER-AGENT,com.kktv.ios.kktv*,国际媒体策略
+DOMAIN-SUFFIX,kktv.com.tw,国际媒体策略
+DOMAIN-SUFFIX,kktv.me,国际媒体策略
+DOMAIN,kktv-theater.kk.stream,国际媒体策略
+# > Line TV
+USER-AGENT,LINE%20TV*,国际媒体策略
+DOMAIN-SUFFIX,linetv.tw,国际媒体策略
+DOMAIN,d3c7rimkq79yfu.cloudfront.net,国际媒体策略
+# > LiTV
+DOMAIN-SUFFIX,litv.tv,国际媒体策略
+DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,国际媒体策略
+# > My5
+USER-AGENT,My5*,国际媒体策略
+DOMAIN-SUFFIX,channel5.com,国际媒体策略
+DOMAIN-SUFFIX,my5.tv,国际媒体策略
+DOMAIN,d349g9zuie06uo.cloudfront.net,国际媒体策略
+# > myTV SUPER
+USER-AGENT,mytv*,国际媒体策略
+DOMAIN-SUFFIX,mytvsuper.com,国际媒体策略
+DOMAIN-SUFFIX,tvb.com,国际媒体策略
+# > Netflix
+USER-AGENT,Argo*,国际媒体策略
+DOMAIN-SUFFIX,netflix.com,国际媒体策略
+DOMAIN-SUFFIX,netflix.net,国际媒体策略
+DOMAIN-SUFFIX,nflxext.com,国际媒体策略
+DOMAIN-SUFFIX,nflximg.com,国际媒体策略
+DOMAIN-SUFFIX,nflximg.net,国际媒体策略
+DOMAIN-SUFFIX,nflxso.net,国际媒体策略
+DOMAIN-SUFFIX,nflxvideo.net,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest0.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest1.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest2.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest3.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest4.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest5.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest6.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest7.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest8.com,国际媒体策略
+DOMAIN-SUFFIX,netflixdnstest9.com,国际媒体策略
+IP-CIDR,23.246.0.0/18,国际媒体策略
+IP-CIDR,37.77.184.0/21,国际媒体策略
+IP-CIDR,45.57.0.0/17,国际媒体策略
+IP-CIDR,64.120.128.0/17,国际媒体策略
+IP-CIDR,66.197.128.0/17,国际媒体策略
+IP-CIDR,108.175.32.0/20,国际媒体策略
+IP-CIDR,192.173.64.0/18,国际媒体策略
+IP-CIDR,198.38.96.0/19,国际媒体策略
+IP-CIDR,198.45.48.0/20,国际媒体策略
+# > niconico
+USER-AGENT,Niconico*,国际媒体策略
+DOMAIN-SUFFIX,dmc.nico,国际媒体策略
+DOMAIN-SUFFIX,nicovideo.jp,国际媒体策略
+DOMAIN-SUFFIX,nimg.jp,国际媒体策略
+DOMAIN-SUFFIX,socdm.com,国际媒体策略
+# > PBS
+USER-AGENT,PBS*,国际媒体策略
+DOMAIN-SUFFIX,pbs.org,国际媒体策略
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com,国际媒体策略
+DOMAIN-SUFFIX,pornhub.com,国际媒体策略
+DOMAIN-SUFFIX,pornhubpremium.com,国际媒体策略
+# > 台湾好
+USER-AGENT,TaiwanGood*,国际媒体策略
+DOMAIN-SUFFIX,skyking.com.tw,国际媒体策略
+DOMAIN,hamifans.emome.net,国际媒体策略
+# > Twitch
+DOMAIN-SUFFIX,twitch.tv,国际媒体策略
+DOMAIN-SUFFIX,twitchcdn.net,国际媒体策略
+DOMAIN-SUFFIX,ttvnw.net,国际媒体策略
+DOMAIN-SUFFIX,jtvnw.net,国际媒体策略
+# > ViuTV
+USER-AGENT,Viu*,国际媒体策略
+USER-AGENT,ViuTV*,国际媒体策略
+DOMAIN-SUFFIX,viu.com,国际媒体策略
+DOMAIN-SUFFIX,viu.tv,国际媒体策略
+DOMAIN,api.viu.now.com,国际媒体策略
+DOMAIN,d1k2us671qcoau.cloudfront.net,国际媒体策略
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,国际媒体策略
+DOMAIN,dfp6rglgjqszk.cloudfront.net,国际媒体策略
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,国际媒体策略
+USER-AGENT,YouTube*,国际媒体策略
+DOMAIN-SUFFIX,googlevideo.com,国际媒体策略
+DOMAIN-SUFFIX,youtube.com,国际媒体策略
+DOMAIN,youtubei.googleapis.com,国际媒体策略
