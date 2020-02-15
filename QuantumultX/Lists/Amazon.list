@@ -1,0 +1,13 @@
+# > Amazon Prime Video
+USER-AGENT,InstantVideo.US*,Amazon 策略
+USER-AGENT,Prime%20Video*,Amazon 策略
+DOMAIN-SUFFIX,aiv-cdn.net,Amazon 策略
+DOMAIN-SUFFIX,aiv-delivery.net,Amazon 策略
+DOMAIN-SUFFIX,Amazonvideo.com,Amazon 策略
+DOMAIN-SUFFIX,primevideo.com,Amazon 策略
+DOMAIN,avodmp4s3ww-a.akamaihd.net,Amazon 策略
+DOMAIN,d25xi40x97liuc.cloudfront.net,Amazon 策略
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,Amazon 策略
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,Amazon 策略
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Amazon 策略
+DOMAIN-KEYWORD,avoddashs,Amazon 策略
