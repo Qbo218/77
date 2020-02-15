@@ -1,0 +1,6 @@
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube 策略
+USER-AGENT,YouTube*,YouTube 策略
+DOMAIN-SUFFIX,googlevideo.com,YouTube 策略
+DOMAIN-SUFFIX,youtube.com,YouTube 策略
+DOMAIN,youtubei.googleapis.com,YouTube 策略
