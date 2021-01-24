@@ -1,10 +1,7 @@
 #!name=脚本Cookies
 #!desc=获取Cookies
 
-
-hostname = %APPEND% api.m.jd.com, *.iqiyi.com, *.video.qq.com, h5.ele.me, *.rrys2019.com, ios.zmzapi.com, i.meituan.com, *.rr.tv, *.bilibili.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, ms.jr.jd.com, draw.jdfcloud.com, app.jf.360.cn, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, webapi.qmai.cn, m.ctrip.com, user.qunar.com, youhui.95516.com
-
-
+[Script]
 # 京东签到
 http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://cdn.jsdelivr.net/gh/NobyDa/Script@master/JD-DailyBonus/JD_DailyBonus.js,tag=京东Cookies
 
@@ -31,21 +28,6 @@ http-request ^https:\/\/api\.rr\.tv\/user\/profile script-path=https://cdn.jsdel
 # 浏览器访问并登录: https://www.bilibili.com 或 https://live.bilibili.com 系统提示:获取Cookie: 成功
 http-request ^https:\/\/(www|live)\.bilibili\.com\/?.? script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,tag=哔哩哔哩Cookies
 
-# > 苏宁易购
-http-request ^https:\/\/passport.suning.com\/ids\/login$ script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js, requires-body=true,tag=苏宁易购Cookies
-http-request ^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js,tag=苏宁易购Cookies
-http-request ^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js,tag=苏宁易购Cookies
-http-request ^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js,tag=苏宁易购Cookies
-
-# > 京东成长分 (By @barrymchen)
-http-request ^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/bt\/h5\/m\/queryUserSignFlow script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/jdczfcookie.js,tag=京东成长分Cookies
-
-# > 微信小程序 来客有礼
-http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,tag=来客有礼Cookies
-
-# > 360扫地机 (By @qiaoborui)
-http-request ^https://app.jf.360.cn/signin/index/index script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/360.js,tag=360扫地机Cookies
-
 # 顺丰速运
 http-request ^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,tag=顺丰速运Cookies
 http-request ^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,tag=顺丰速运Cookies
@@ -56,14 +38,12 @@ http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.git
 # 滴滴签到
 http-request ^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js,tag=滴滴Cookies
 
-# 奈雪的茶
-http-request ^https:\/\/webapi\.qmai\.cn\/web\/cy\/v\d\/store\/template-scene script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Naixue/Naixue.js, tag=奈雪的茶Cookies
-
 # 携程
 http-request https:\/\/m\.ctrip\.com\/restapi\/soa2\/14946\/json\/userBaseInfo script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip_cookie.js, tag=携程Cookies
 
 # 去哪儿
 http-request ^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js, tag=去哪儿Cookies
 
-# 云闪付
-http-request https://youhui.95516.com/newsign/public/app/index.html script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, requires-body=true, timeout=10, tag=云闪付签到Cookies
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, *.iqiyi.com, *.video.qq.com, h5.ele.me, *.rrys2019.com, ios.zmzapi.com, i.meituan.com, *.rr.tv, *.bilibili.com, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, m.ctrip.com, user.qunar.com
