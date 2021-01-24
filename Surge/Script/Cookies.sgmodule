@@ -1,4 +1,8 @@
-hostname = api.m.jd.com, *.iqiyi.com, *.video.qq.com, h5.ele.me, *.rrys2019.com, ios.zmzapi.com, i.meituan.com, *.rr.tv, *.bilibili.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, ms.jr.jd.com, draw.jdfcloud.com, app.jf.360.cn, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, webapi.qmai.cn, m.ctrip.com, user.qunar.com, youhui.95516.com
+#!name=脚本Cookies
+#!desc=获取Cookies
+
+
+hostname = %APPEND% api.m.jd.com, *.iqiyi.com, *.video.qq.com, h5.ele.me, *.rrys2019.com, ios.zmzapi.com, i.meituan.com, *.rr.tv, *.bilibili.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, ms.jr.jd.com, draw.jdfcloud.com, app.jf.360.cn, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, webapi.qmai.cn, m.ctrip.com, user.qunar.com, youhui.95516.com
 
 
 # 京东签到
