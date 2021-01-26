@@ -22,7 +22,7 @@ hostname = api.bilibili.com
 */
 
 const Group = $persistentStore.read('BiliArea_Policy') || '策略：港台媒体'; //Your blibli policy group name.
-const CN = $persistentStore.read('BiliArea_CN') || 'DIRECT'; //Your China sub-policy name.
+const CN = $persistentStore.read('BiliArea_CN') || '指定：直接连接'; //Your China sub-policy name.
 const TW = $persistentStore.read('BiliArea_TW') || '顺序：台新节点'; //Your Taiwan sub-policy name.
 const HK = $persistentStore.read('BiliArea_HK') || '顺序：香港节点'; //Your HongKong sub-policy name.
 
