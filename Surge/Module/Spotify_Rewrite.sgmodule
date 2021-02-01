@@ -1,0 +1,20 @@
+#!name=Spotify Rewrite
+#!desc=Spotify 去广告
+#!system=ios
+
+[URL Rewrite]
+^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic\/* - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/ads\/* - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+banners - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+canvases - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+cards - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled-tracks - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+event - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted_offer - reject
+^https?:\/\/spclient\.wg\.spotify\.com\/.+sponsored - reject
+
+[MITM]
+hostname = %APPEND% spclient.wg.spotify.com
