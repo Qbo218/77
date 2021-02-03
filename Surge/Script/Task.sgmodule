@@ -2,9 +2,6 @@
 #!desc=京东、滴滴等
 
 [Script]
-# 京东白条
-京东白条 = type=cron,cronexp="0 0,9 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
-
 # 饿了么签到
 饿了么签到 = type=cron,cronexp="50 10 0 * * *",wake-system=1,timeout=200,script-path=https://cdn.jsdelivr.net/gh/songyangzz/QuantumultX@master/elem/elemSign.js
 
