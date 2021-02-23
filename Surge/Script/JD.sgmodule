@@ -6,5 +6,3 @@
 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/JD-JB/raw/JD-LXK9301/jd_car_exchange.js
 宠汪汪积分兑换奖品 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/JD-JB/raw/JD-LXK9301/jd_joy_reward.js
 进店领豆 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/JD-JB/raw/JD-LXK9301/jd_shop.js
-
-京东保价 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/77/raw/master/Script/jd_price.js
