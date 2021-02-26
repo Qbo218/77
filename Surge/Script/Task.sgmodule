@@ -33,3 +33,5 @@
 
 #返利网获取body
 返利网获取body = type=http-request,pattern=https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/flw.js
+[MITM]
+hostname = %APPEND% huodong.fanli.com,passport.fanli.com,gw.fanli.com
