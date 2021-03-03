@@ -7,6 +7,7 @@
 
 # 饿了么签到
 饿了么Cookies = type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$,script-path=https://cdn.jsdelivr.net/gh/songyangzz/QuantumultX@master/elem/elemGetCookies.js
+饿了么_获取cookie = type=http-request,pattern=^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/queryMissionCollect\??longitude=([^&]*).*latitude=([^&]*),script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 
 # 芒果TV签到
 芒果TV Cookies = type=http-request,pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
