@@ -3,7 +3,7 @@
 
 [Script]
 # 京东签到
-京东Cookies = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://cdn.jsdelivr.net/gh/NobyDa/Script@master/JD-DailyBonus/JD_DailyBonus.js
+京东Cookies = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
 # 饿了么签到
 饿了么Cookies = type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$,script-path=https://cdn.jsdelivr.net/gh/songyangzz/QuantumultX@master/elem/elemGetCookies.js
