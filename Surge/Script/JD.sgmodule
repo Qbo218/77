@@ -6,4 +6,3 @@
 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/JD-JB/raw/JD-LXK9301/jd_car_exchange.js
 汪汪换 = type=cron,cronexp="0 0-16/8 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/77/raw/master/Script/jdcwwdh.js
 进店领豆 = type=cron,cronexp="1 0 * * *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/JD-JB/raw/JD-LXK9301/jd_shop.js
-京东直播红包雨 = type=cron,cronexp="30,31 20-23/1 2,5 3 *",wake-system=1,timeout=3600,script-path=https://github.com/Qbo218/77/raw/master/Script/jd_zbhby.js
