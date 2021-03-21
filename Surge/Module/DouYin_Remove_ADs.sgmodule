@@ -13,6 +13,3 @@
 
 [Script]
 douyin_remove_ads = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,script-path=https://github.com/Qbo218/77/raw/master/Script/DouYin.js
-
-[MITM]
-hostname = %APPEND% *.amemv.com
