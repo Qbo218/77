@@ -13,6 +13,3 @@
 
 [Script]
 http-response ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ requires-body=1, script-path=https://github.com/Qbo218/77/raw/master/Script/DouYin.js,tag=抖音去广告
-
-[MITM]
-hostname = *.amemv.com
