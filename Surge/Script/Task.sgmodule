@@ -29,6 +29,3 @@
 
 # 去哪儿
 去哪儿 = type=cron,cronexp="40 12 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js
-
-# 万达电影
-万达电影签到 = type=cron,cronexp=30 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js,wake-system=true
