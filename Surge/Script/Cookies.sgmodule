@@ -35,8 +35,5 @@
 # 去哪儿
 去哪儿Cookies = type=http-request,pattern=^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js
 
-# 万达电影
-万达电影Cookies = type=http-request,pattern=^https:\/\/user-api-prd-mx\.wandafilm\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.cookie.js,debug=true
-
 [MITM]
-hostname = %APPEND% api.m.jd.com, h5.ele.me, credits.bz.mgtv.com, i.meituan.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, m.ctrip.com, user.qunar.com, user-api-prd-mx.wandafilm.com
+hostname = %APPEND% api.m.jd.com, h5.ele.me, credits.bz.mgtv.com, i.meituan.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, m.ctrip.com, user.qunar.com
