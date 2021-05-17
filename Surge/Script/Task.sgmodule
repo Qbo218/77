@@ -19,7 +19,6 @@
 
 # 滴滴签到
 滴滴签到 = type=cron,cronexp="0 1,20,21 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-滴滴福利金领取 = type=cron,cronexp="50 23 * * *",wake-system=1,timeout=200,script-path=https://cdn.jsdelivr.net/gh/zZPiglet/Task@master/DiDi/DiDi_reward.js
 
 # 携程
 携程旅行 = type=cron,cronexp="30 12 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/ctrip.js
