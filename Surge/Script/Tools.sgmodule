@@ -16,7 +16,7 @@ Netflix 单集评分 = type=http-response, pattern=^https?://ios\.prod\.ftl\.net
 
 微信公众号去广告 = type=http-request, pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad, script-path=https://cdn.jsdelivr.net/gh/Qbo218/77@master/Loon/Script/WeChat.js
 
-哔哩哔哩高画质 = type=http-response, pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)), requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Script/Bilibili/BiliHD.js
+哔哩哔哩高画质 = type=http-response, pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)), requires-body=1,max-size=0,script-path=https://github.com/Sunert/Script/raw/master/Script/BiliHD.js
 哔哩哔哩自动换区 = type=http-response,pattern=https:\/\/api\.bilibili\.com\/pgc\/view\/(v\d\/)?app\/season\?access_key,requires-body=1,max-size=0,control-api=1,script-path=https://raw.githubusercontent.com/Qbo218/77/master/Surge/Script/JS/Bili_Auto_Regions.js
 
 微博去广告 = type=http-response, pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua), requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
