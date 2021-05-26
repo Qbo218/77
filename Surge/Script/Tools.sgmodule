@@ -27,7 +27,7 @@ Netflix 单集评分 = type=http-response, pattern=^https?://ios\.prod\.ftl\.net
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.js,requires-body=true,timeout=120,max-size=131072
 
 # 微博通知
-微博通知 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
+微博通知运行 = type=cron,cronexp="0 * * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
 微博通知 = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
 
 [MITM]
