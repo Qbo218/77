@@ -35,5 +35,11 @@
 # 去哪儿
 去哪儿Cookies = type=http-request,pattern=^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js
 
+# 海底捞
+海底捞Cookies = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/haidilao/hdl.js,type=http-request,pattern=^https:\/\/activity-1\.m\.duiba\.com\.cn\/signactivity\/doSign$
+
+# 微博通知
+微博通知Cookies = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
+
 [MITM]
-hostname = %APPEND% api.m.jd.com, h5.ele.me, credits.bz.mgtv.com, i.meituan.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, m.ctrip.com, user.qunar.com
+hostname = %APPEND% api.m.jd.com, h5.ele.me, credits.bz.mgtv.com, i.meituan.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, www.52pojie.cn, as.xiaojukeji.com, m.ctrip.com, user.qunar.com, activity-1.m.duiba.com.cn
