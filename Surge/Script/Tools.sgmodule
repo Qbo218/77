@@ -4,17 +4,16 @@
 [Script]
 AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=https://gist.githubusercontent.com/Qbo218/08a4f23f6d1da5add717edaf48782cdb/raw/iOS_Weather_AQI_Standard.js
 
-京东比价 = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), requires-body=1, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-
-淘宝比价 = type=http-request, pattern=^http://.+/amdc/mobileDispatch, requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-淘宝比价 = type=http-response, pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail, requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+京东比价 = type=http-response, pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), requires-body=1, script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+淘宝比价 = type=http-request, pattern=^http://.+/amdc/mobileDispatch, requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+淘宝比价 = type=http-response, pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail, requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
 Netflix 评分 = type=http-request, pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D, script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 Netflix 评分 = type=http-response, pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D, requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 # 单集评分
 Netflix 单集评分 = type=http-response, pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
 
-微信公众号去广告 = type=http-request, pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad, script-path=https://cdn.jsdelivr.net/gh/Qbo218/77@master/Loon/Script/WeChat.js
+微信公众号去广告 = type=http-request, pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 
 哔哩哔哩高画质 = type=http-response, pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)), requires-body=1,max-size=0,script-path=https://github.com/Sunert/Script/raw/master/Script/BiliHD.js
 哔哩哔哩自动换区 = type=http-response,pattern=https:\/\/api\.bilibili\.com\/pgc\/view\/(v\d\/)?app\/season\?access_key,requires-body=1,max-size=0,control-api=1,script-path=https://raw.githubusercontent.com/Qbo218/77/master/Surge/Script/JS/Bili_Auto_Regions.js
